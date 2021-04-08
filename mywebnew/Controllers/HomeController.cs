@@ -8,6 +8,8 @@ namespace mywebnew.Controllers
 {
     public class HomeController : Controller
     {
+        string name = "abebe";
+       
         public ActionResult Index()
         {
             return View();
@@ -19,6 +21,7 @@ namespace mywebnew.Controllers
 
             return View();
         }
+
 
         public ActionResult Contact()
         {

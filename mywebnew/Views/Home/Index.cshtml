@@ -2,30 +2,105 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
-
+    
+     <div font size:10px; color:"gray" bgcolor=" #9999ff">
+    <h1 class="title">wellcome to Appfactory student system</h1>
+       </div>
+        <h1>Appfactory</h1>
+        <p class="lead">Appfactory is an organization for a programming incubator in kombolcha campus></p>
+        <p><a href="https://www.facebook.com/groups/981803575514608/" class="btn btn-primary btn-lg">join facebook &raquo;</a></p>
+    
 <div class="row">
     <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
+       
+   
+        <style type="text/css">
+            .bond {
+                padding: 100px;
+                border: 10px solid #003300;
+                background-color: pink;
+                border-radius: 20px;
+            }
+
+            .btn {
+                padding: 15px;
+                font size:20px;
+                color: white;
+                background: #5F9EA0;
+                border: none;
+                border-radius: 10px;
+                width: 150px;
+            }
+
+            .title {
+                padding: 15px;
+                font size:20px;
+                color: white;
+                background: #5F9EA0;
+                border: none;
+                border-radius: 10px;
+                width: 1100px;
+            }
+
+            .h {
+                color: #3366ff;
+            }
+        </style>
+   
+
+    <center>
+       
+            <form>
+               
+                
+                    <table bgcolor="#F0F8FF" style="border:1px solid #336699;width:500px;height:350px;border-radius:15px;box-shadow:10px 10px 10px  10px #5F9EA0" align="center">
+                        <tr>
+                            <td colspan=2 align=center><b><font color="#5F9EA0" size="5px" width="250px">LOGIN FORM</font></b></td>
+                        </tr>
+                        <tr>
+                            <td><font color=red> * </font><font size='5px'>UserId:</font></td>
+                            <td><input type="text" name="uname" value="" size="20%" id="txt_username" placeholder="Username"></td>
+                        </tr>
+                        <tr>
+                            <td><font color=red> * </font> <font size='5px'>Password:</font></td>
+                            <td>
+                                <input type="password" name="pass" value="" size="20%" id="txt_password" placeholder="Password">
+                            </td>
+                        </tr>
+                        <td>
+                            <font color=red> * </font> <font size='5px'>
+                                UserType:
+                                <select name="a" id="gender">
+                                    <option>Please Select</option>
+                                    <option>admin</option>
+                                    <option>instructor</option>
+                                    <option>student</option>
+                                </select>
+                            </font>
+                        </td>
+                        <td>
+                        <tr>
+                            <td colspan=2 align=center>
+                                <input type='submit' value='login' name='submit' class="btn" Onclick="return check(this.form);" />
+                                <input type='reset' value='Reset' class="btn" />
+                            </td>
+                        </tr>
+
+                    </table>
+                </form>
+
+                <ul>
+                    <li><a href="create.html"><h1 class="h">create account?<h1></a></li>
+                </ul>
+           
+
+    </center>
+
+
+
+
+
+</div>
+
+
 </div>
