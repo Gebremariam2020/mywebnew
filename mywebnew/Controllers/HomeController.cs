@@ -8,7 +8,7 @@ namespace mywebnew.Controllers
 {
     public class HomeController : Controller
     {
-        string name = "abebe";
+     
        
         public ActionResult Index()
         {
@@ -17,7 +17,8 @@ namespace mywebnew.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "this is my first project ";
+            ViewBag.Message = "this is esmaeal  and gebre ";
 
             return View();
         }
@@ -25,7 +26,7 @@ namespace mywebnew.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "you can  contact  by  link below for more  desciption ";
 
             return View();
         }
